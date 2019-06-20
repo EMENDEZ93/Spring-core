@@ -13,4 +13,6 @@
 		<constructor-arg name="message" value="Servicio IoC Constructor"></constructor-arg>
 	</bean>
 
+	<bean id="ioc_byType" class="beans.IoCByType" autowire="byType"></bean>
+
 </beans>
